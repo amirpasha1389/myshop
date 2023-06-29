@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ar" dir="ltr">
+  <head>
+     
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="features.html">
+    <link rel="stylesheet" href="shoping.html">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light ms-5>
+      <div class="container-fluid">
+        <a class="navbar-brand shoper" href="#">shoper.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link shop" href="#">shoping</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               account
+              </a>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">log-in</h5>
+                      <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="input-group input-group-sm mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-sm">email</span>
+                          <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-sm mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-sm">password</span>
+                          <input type="pasword" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                      </form>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary">submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                </svg>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-dark ms-4 text-center" id="offcanvasExampleLabel">your cart</h5>
+
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div  class="row m-0 border h-21">
+        <div class="col-5">
+          <img class="ghoshi" src="came-1.jpg" alt="">
+        </div>
+        <div class="col-7 ">
+          <p class="pkhas">
+Cotton floral print Dress
+</p>
+<pre class="text-dark prekhas">
+40$
+</pre>
+<select class="form-select" aria-label="mini select example">
+  <option selected>1</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+        </div>
+      </div>
+      <br>
+      <div  class="row m-0 border h-21">
+        <div class="col-5">
+          <img class="ghoshi" src="cover-3.jpg" alt="">
+        </div>
+        <div class="col-7 ">
+          <p class="pkhas">
+
+            Suede cross body Bag
+</p>
+<pre class="text-dark prekhas">
+49.00$
+</pre>
+<select class="form-select" aria-label="mini select example">
+  <option selected>1</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+        </div>
+      </div>
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-outline-dark">contineu to chek out</button>
+          </div>
+        
+          <div class="d-grid gap-2 mt-3">
+            <button type="button" class="btn btn-outline-dark"> view cart</button>
+          </div>
+    
+    </div>
+      <header>
+          <div class="row m-0" id="bg">
+            <div class="col-md-4 col-sm-12 col-12" style="background-image: url(./cover-1.jpg); background-size:495px; background-repeat: no-repeat; background-position: center;">
+               <h1 class="mt-4">WOMAN</h1>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12 " style="background-image: url(./cover-2.jpg); background-size: 495px; background-repeat: no-repeat; background-position: center;">
+                <h1 class="mt-4">MAN</h1>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12 " style="background-image: url(./cover-3.jpg); background-size: 495px; background-repeat: no-repeat; background-position: center;">
+               <h1 class="mt-4">kids</h1>
+            </div>
+          </div>
+          <h6 class="text-center mt-2">salam khosh omadi</h6>
+          <h1 class="text-center nov">best pick 2019</h1>
+          <pre class="text-center mt-0 text-uppercase">
+   Lorem ipsum, dolor sit amet consectetu
+ r adipisicing elit. Odio aliquid deleniti ma
+  gnam eveniet laboriosam in magni ipsa, blanditii
+
+          </pre>
+          <div class="row  m-0 rowakhar justify-content-center">
+            <div class="col-md-3 col-sm-12 col-8 text-center" style=" background-size: cover; background-image: url(./product-1.jpg);">
+              <h2 class="text-center">bags collection</h2>
+              <h5 class="text-center">over 100 style for you</h5>
+            </div>
+            <div class="col-md-6 col-sm-12 col-8 text-center" style="background-size: cover; background-image: url(./product-2.jpg) ;">
+              <h2 class="text-center text-dark">bags collection</h2>
+              <h5 class="text-center text-dark">over 100 style for you</h5>
+            </div>
+          </div>
+          <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="woman-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="woman-tab-pane" aria-selected="true">woman</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="men-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="men-tab-pane" aria-selected="false">man</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="kids-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="kids-tab-pane" aria-selected="false">kids</button>
+            </li>
+            <li class="nav-item" role="presentation">
+  
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="woman-tab-pane" role="tabpanel" aria-labelledby="woman-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="man-tab-pane" role="tabpanel" aria-labelledby="men-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="kids-tab-pane" role="tabpanel" aria-labelledby="kids-tab" tabindex="0"></div>
+          
+          </div>
+      
+          </nav>
+          <div class="tab-content row justify-content-center m-0" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-woman-tab" tabindex="0">
+              <div class="row m-0 justify-content-center">
+                <div class="col-md-3 col-sm-3 col-8 text-center ">
+                  <div class="card bg-light" style="width: 18rem;">
+                    <img src="./came-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">woman</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"><i>go somevere</i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-8">
+                  <div class="card text-center bg-light" style="width: 18rem;">
+                    <img src="./came-2.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">woman</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+              <div class="carousel-inner carousel-dark justify-content-center">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center m-0">
+                    <div class="col-md-2 col-sm-2 col-7  mt-3">
+                      <div class="card bg-light">
+                        <img src="./came-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-light">Card title</h5>
+                          <p class="card-text text-danger">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-7 mt-3">
+                      <div class="card bg-light text-center">
+                        <img src="./came-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cars title</h5>
+                          <p class="card-text text-danger">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+     
+                </div>
+
+                <div class="carousel-item ">
+                  <div class="row justify-content-center m-0">
+                    <div class="col-md-2 col-sm-2 col-7 mt-3">
+                      <div class="card bg-light">
+                        <img src="./cafsh-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-light">Card title</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-6 mt-3">
+                      <div class="card bg-light text-center">
+                        <img src="./cafsh-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+ 
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            
+            </div>
+            <footer class="footer">
+              <div class="row m-0 justify-content-center">
+                <div class="col">
+                  <span class="text-light">WATSAPP:09195849530</span>
+                  <br>
+                  <br>
+                  <span class="text-light">MY NUMBER:09055160579</span>
+                  <br>
+                  <br>
+                  <span class="text-light">INSTAGRAM:amirpashapanji</span>
+                  <br>
+                  <br>
+                  <span class="text-light">TWITER:amirpahsa panji</span>
+                </div>
+                <div class="col">
+                 <span class="text-warning">
+                  hello i am amirpasha 
+                  i am from republic 
+                  iran i am a web 
+                  developer
+   
+                </span>
+                <br>
+                <span class="text-warning">
+                  i am a iranian 
+                  why i shoud not 
+                  be free i do
+                 i want to travel
+                 to german
+                </span> 
+                <span class="text-warning">
+                  hello i am amirpasha 
+                  i am from republic 
+                  iran i am a web 
+                  developer
+   
+                </span>
+                <br>
+                <span class="text-warning">
+                  i am a iranian 
+                  why i shoud not 
+                  be free i do
+                 i want to travel
+                 to german
+                </span>
+                <span class="text-warning">
+                  hello i am amirpasha 
+                  i am from republic 
+                  iran i am salam
+                  developer
+   
+                </span>
+                <br>
+                <span class="text-warning">
+                  i am a iranian 
+                  why i shoud not 
+                  be free i do
+                 i want to travel
+                 to german
+                </span>
+                <span class="text-warning">
+                  hello i am amirpasha 
+                  i am from republic 
+                  iran i am a web 
+                  developer
+                </span>
+
+                </div>
+              </div>
+            </footer>      
+            <footer>
+
+              
+            </footer>  
+                         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+            <script src="index.js"></script>
+                        </body>
+
+</html>

@@ -1,0 +1,145 @@
+body{
+background-color: white;
+
+}
+#bg div{
+height: 495px;
+transition: all 1s;
+}
+#bg div:hover{
+opacity: 0.3;
+}
+div h1{
+        margin-right:150px;
+        color:white;
+        font-family: gandom;
+}
+.mt-5{
+    margin-top: 120px;
+}
+@font-face {
+    font-family: gandom;
+    src: url(BAUHS93.TTF);
+}
+@font-face {
+    font-family: gandom2;
+    src: url(ARLRDBD.TTF);
+}
+@font-face {
+    font-family: gandom3;
+    src: url(BAUHS93\ -\ Copy.TTF);
+}
+@font-face {
+    font-family: farsi;
+    src: url(andlso.ttf);
+}
+
+.rowakhar{
+height: 70vh;
+}
+.col-md-3{
+transition: all 1s;
+}
+.col-md-3:hover{
+background-position: 0px;
+}
+.col-md-6{
+    transition: all 1s;
+    }
+    .col-md-6:hover{
+    background-position: center;
+    }
+    h2{
+    color: white;
+    }
+    h5{
+        color: white;
+    }
+    .carousel-inner{
+        width: 1000px;
+        height: 509px;
+        margin-top: 20px;
+        border-radius:0%;
+        background-color:white;
+    }
+    pre{
+    font: bolder;
+    
+    }
+    .card-title{
+        width: 150px;
+        height: 20px;
+    }
+    .nov{
+        font-family: gandom;
+    }
+    *{
+    font-family: gandom;
+    }
+    .text-uppercase{
+        font-family: gandom2;
+    }
+    .shoper{
+        font-family: gandom3;
+    }
+    @media (max-width:576px){
+        .shoper{
+           font-family: gandom2;
+        }
+    }
+    .modal-header{
+        background-color: white;
+        color: white;
+    }
+    .modal-body{
+        background-color: white;
+        color: white;
+    }
+    h3{
+    margin-top: 40px;
+    margin-right: 200px;
+    }
+    .h-21{
+        height: 250px;
+    }
+    .ghoshi{
+    height: 180px;
+    width: 140px;
+    margin-top: 30px;
+    }
+    .pkhas{
+        margin-top: 40px;
+    }
+    .prekhas{
+        font-size: 15px;
+        color: gray;
+    }
+.btn-dark{
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.form-select{
+  
+    width: 70px;
+}
+.ssss{
+border-radius: 0%;
+background-color: white;
+}
+.sss{
+    border-radius: 0%;
+    }
+.ssss:hover{
+background-color: black;
+color: white;
+}
+.footer{
+    background-color: rgb(54, 52, 52);
+    width: 98.5vw;
+    height: 30VH;
+    margin: 0;
+}
+*{
+    font-family: gandom3;
+}

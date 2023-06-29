@@ -1,0 +1,79 @@
+.modal-header{
+    background-color: white;
+    color: white;
+}
+.modal-body{
+    background-color: white;
+    color: white;
+}  
+.nov{
+    font-family: gandom;
+}
+*{
+font-family: gandom;
+}
+.text-uppercase{
+    font-family: gandom2;
+}
+.shoper{
+    font-family: gandom3;
+}
+@font-face {
+    font-family: gandom;
+    src: url(BAUHS93.TTF);
+}
+@font-face {
+    font-family: gandom2;
+    src: url(ARLRDBD.TTF);
+}
+@font-face {
+    font-family: gandom3;
+    src: url(HARLOWSI.TTF);
+}
+@font-face {
+    font-family: farsi;
+    src: url(andlso.ttf);
+}
+#bg div{
+    height: 495px;
+    transition: all 1s;
+    }
+    #bg div:hover{
+    opacity: 0.3;
+    }
+    div h1{
+            margin-right:150px;
+            color:white;
+            font-family: gandom;
+    }
+    .mt-5{
+        margin-top: 120px;
+    }
+    .rowakhar{
+        height: 70vh;
+        }
+        .col-md-3{
+        transition: all 1s;
+        }
+        .col-md-3:hover{
+        background-position: 20px;
+        }
+        .col-md-6{
+            transition: all 1s;
+            }
+            .col-md-6:hover{
+            background-position: center;
+            }
+            .shoper{
+            margin-left: 470px;
+            
+            }
+            .navmenu{
+            margin-right:50px;
+            border-bottom-left-radius:10%;
+            border-bottom-right-radius: 10%;
+            color: white;
+            }
+            body{
+                background-color: black;
+            }
